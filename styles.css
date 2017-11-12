@@ -1,0 +1,82 @@
+h1{
+    font-family: Arial, Helvetica, sans-serif;
+    margin-left:30px;
+    padding-top: 20px;
+    
+}
+
+h2{
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+h3{
+    float:left;
+    padding-left:20px;
+}
+
+
+header{
+    background-color: rgb(46, 177, 238)
+}
+
+#subtitle{
+    font-family: Arial, Helvetica, sans-serif;
+    padding-left:30px;
+    padding-bottom:20px;
+    font-size: 20px;
+}
+
+table, td{
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    text-align:left;
+}
+
+th{
+    font-family: Arial, Helvetica, sans-serif;
+    border-style: solid;
+    border-width: 2px;
+    text-align:left;
+    background-color:black;
+    color:white;
+}
+
+
+#infoForm{
+    font-family: Arial, Helvetica, sans-serif;
+    float:left;
+    padding-left:30px;
+}
+
+
+#monthlyBudgetContainer{
+    font-family: Arial, Helvetica, sans-serif;
+    font-style: bold;
+    margin-right: 250px;
+    margin-top:180px;
+    float:right;
+    height: 100px;
+    width: 120px;
+    border-style: solid;
+    background-color: rgb(26, 156, 26);
+    padding-bottom:5px;
+    padding-left: 12px;
+    padding-right:12px;
+    text-align:top;
+    margin-bottom:10px
+
+    
+
+}
+
+#employeeInfoTable{
+    font-family: Arial, Helvetica, sans-serif;    
+    border-style: solid;
+    border-width: 2px;
+}
+
+caption{
+    float:left
+    
+}
