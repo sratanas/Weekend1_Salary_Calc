@@ -15,9 +15,6 @@ h3{
 }
 
 
-header{
-    background-color: rgb(46, 177, 238)
-}
 
 #subtitle{
     font-family: Arial, Helvetica, sans-serif;
@@ -31,6 +28,7 @@ table, td{
     border-style: solid;
     border-width: 2px;
     text-align:left;
+    margin-bottom: 200px;
 }
 
 th{
@@ -53,9 +51,9 @@ th{
 #monthlyBudgetContainer{
     font-family: Arial, Helvetica, sans-serif;
     font-style: bold;
-    margin-right: 250px;
-    margin-top:180px;
-    float:right;
+    /* margin-right: 12px;
+    margin-top:280px; */
+    float:left;
     height: 100px;
     width: 120px;
     border-style: solid;
@@ -64,19 +62,27 @@ th{
     padding-left: 12px;
     padding-right:12px;
     text-align:top;
-    margin-bottom:10px
-
-    
+    margin:50px; 
 
 }
 
 #employeeInfoTable{
+    float:left;
     font-family: Arial, Helvetica, sans-serif;    
     border-style: solid;
     border-width: 2px;
+    margin-left: 20px;
 }
 
 caption{
     float:left
     
+}
+
+#bigContainer{
+    width: 570px;
+    height:270px;
+    background-color: gray;
+    padding: 20px;
+    margin-left: 20px;
 }
