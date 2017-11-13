@@ -9,7 +9,8 @@ $('#submitButton').on('click',createEmployeeArrays);
     }
 var monthlyCostArray = []
 
-function createEmployeeArrays (){
+function createEmployeeArrays (event){
+    event.preventDefault();
     console.log('inside createEmployeeArrays');
     var employeeArray = []; //empty array for employee info
     
