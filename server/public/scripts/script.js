@@ -48,21 +48,36 @@ monthlyCostArray.push(formMonthlyPay);
 
 
 //Runs the functions below to add all the items in the montlyCostArray
-addToMonthlyCostsBox();
+// addToMonthlyCostsBox();
+monthlyCostsTotal();
 
 //Resets the form
 document.getElementById("infoForm").reset();
 
 }
 
+function monthlyCostsTotal(){
+    console.log('in monthly costs total function');
+    
+    var totalSalaries = 0;
+
+    for (var i = 0; i < employeeArray.length; i++){
+        return Number(employeeArray.pop());
+
+
+    }//middle of working on new for loop
+
+
+}
+console.log(monthlyCostsTotal());
 //had some help from W3 schools with .reduce() method.
-function sumOfEachMonthlyPay(total, addEmployeePay){ 
-    return total + parseInt(addEmployeePay);
-}
-//records the growing montly cost in the montlyCostsBox
-function addToMonthlyCostsBox() {
-    document.getElementById("monthlyBudgetNumber").innerHTML = monthlyCostArray.reduce(sumOfEachMonthlyPay, 0);
-}
+// function sumOfEachMonthlyPay(total, addEmployeePay){ 
+//     return total + parseInt(addEmployeePay);
+// }
+// //records the growing montly cost in the montlyCostsBox
+// function addToMonthlyCostsBox() {
+//     document.getElementById("monthlyBudgetNumber").innerHTML = monthlyCostArray.reduce(sumOfEachMonthlyPay, 0);
+// }
 
 //tried many times to create an array of objects from the form information but couldn't.
 //Instead I figured out how to record the info using all arrays, object constructors
